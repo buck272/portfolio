@@ -261,3 +261,33 @@ a {
     background-size: cover;
 }
 
+footer {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: white;
+}
+
+.scrollUpButton i {
+    position: fixed;
+    z-index: 500;
+    color: white;
+    top: 51.5rem;
+    left: 3.5rem;
+    transition: all .2s;
+}
+
+.hide {
+    transition: .2s linear;
+    opacity: 0;
+}
+
+.show {
+    transition: .2s linear;
+    opacity: 1;
+}
+
