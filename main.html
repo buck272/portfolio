@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <title>Ron | Portfolio</title>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/1f9ef6f3b5.js" crossorigin="anonymous"></script>
+    <header>
+        <div class="menu-container">
+            <a data-aos="fade-down"  href="#home">.home</a>
+            <a data-aos="fade-down" data-aos-duration="750" href="#about-me">.about-me</a>
+            <a data-aos="fade-down" data-aos-duration="1000" href="#projects">.projects</a>
+        </div>
+    </header>
+
+    <!-- Home section -->
+    <section id="home">
+        <div data-aos="fade-up" data-aos-duration="750" class="home-container">
+            <div class="contact-container">
+                <div class="description">
+                    <h1>Hi! I'm Ron.</h1>
+                    <p>An aspiring software developer</p>
+                </div>
+                <div class="contact-links">
+                    <a href="https://github.com/buckemono27" target="_blank" class="github-link"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ronnie-mamaradlo-a3508b57/" target="_blank" class="linkedin-link"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:rtm2702@gmail.com"><i class="fa-solid fa-at"></i></a>
+                    <a href=""><i class="fa-solid fa-mug-hot"></i></a>
+                </div>
+                <div class="info-container">
+                    <a href="" class="download-cv-btn">download cv</a>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="./assets/drawing.png" alt="Person with computer floating in the air">
+            </div>
+        </div>
+    </section>
+
+    <!-- About me section -->
+    <section id="about-me">
+        <div data-aos="fade-up" data-aos-duration="750" class="about-me-container">
+            <h1 class="title">About me</h1>
+            <p class="about-me-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur pariatur ducimus iusto quae quod libero nostrum beatae commodi magnam, sapiente adipisci nemo a est quam explicabo ex nesciunt veniam quibusdam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci recusandae magni deleniti porro dolorem velit expedita laborum animi architecto blanditiis. Assumenda, quae dolor suscipit ipsa nobis molestias placeat sunt nam?</p>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects">
+        <div data-aos="fade-up" data-aos-duration="750" class="projects-container">
+            <h1>Projects</h1>
+            <div class="cards-container">
+                <div class="project-card project-1">
+                    <div class="overlay-container">
+                        <a href="https://github.com/buck272/tictactoe-game" target="_blank" class="">
+                            <h3 class="project-title">Command line TicTacToe</h3>
+                        </a>
+                        <p class="project-description">Tic-Tac-Toe game made with Python, playable in any CLI</p>
+                        <div class="icon-container">
+                            <img src="/assets/icons/python.png" alt="Python icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card project-2">
+                    <div class="overlay-container">
+                        <a href="https://github.com/buck272/tictactoe-pygame" target="_blank" class="">
+                            <h3 class="project-title">Pygame TicTacToe</h3>
+                        </a>
+                        <p class="project-description">Tic-Tac-Toe game made with Pygame, a Python library for game development.</p>
+                        <div class="icon-container">
+                            <img src="/assets/icons/python.png" alt="Python icon">
+                            <img src="/assets/icons/pygame.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card project-3">
+                    <div class="overlay-container">
+                        <a href="https://buck272.github.io/basic-html-css/" target="_blank" class="">
+                            <h3 class="project-title">Recipe Website</h3>
+                        </a>
+                        <p class="project-description">A lasagna recipe website made with just HTML and CSS</p>
+                        <div class="icon-container">
+                            <img src="/assets/icons/html-5.png" alt="HTML5 icon">
+                            <img src="/assets/icons/css-3.png" alt="HTML5 icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card project-4">
+                    <div class="overlay-container">
+                        <a href="https://github.com/buck272/connect-four-game/tree/main" target="_blank" class="">
+                            <h3 class="project-title">Command line Connect four</h3>
+                        </a>
+                        <p class="project-description">Connect four game made with Python, playable in any CLI.</p>
+                        <div class="icon-container">
+                            <img src="/assets/icons/python.png" alt="Python icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="#home" class="go-up-btn">Button</a>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>
