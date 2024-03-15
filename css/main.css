@@ -160,6 +160,15 @@ a {
     line-height: 1.75rem;
 }
 
+.about-me-description a {
+    text-decoration: underline;
+    color: white;
+}
+
+.about-me-description a:active {
+    color: white;
+}
+
 #projects {
     display: flex;
     align-items: center;
@@ -276,8 +285,8 @@ footer p {
     position: fixed;
     z-index: 500;
     color: white;
-    top: 51.5rem;
-    left: 3.5rem;
+    top: 85%;
+    left: 4%;
     transition: all .2s;
 }
 
