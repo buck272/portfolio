@@ -252,21 +252,21 @@ a {
 }
 
 .project-1 {
-    background-image: url("/assets/tic-tac-toe-console.png");
+    background-image: url("./assets/tic-tac-toe-console.png");
 }
 
 .project-2 {
-    background-image: url("/assets/tic-tac-toe-pygame.png");
+    background-image: url("./assets/tic-tac-toe-pygame.png");
     background-size: cover;
 }
 
 .project-3 {
-    background-image: url("/assets/lasagna-recipe.png");
+    background-image: url("./assets/lasagna-recipe.png");
     background-size: cover;
 }
 
 .project-4 {
-    background-image: url("/assets/connect-four-console.png");
+    background-image: url("./assets/connect-four-console.png");
     background-size: cover;
 }
 
