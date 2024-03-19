@@ -270,6 +270,11 @@ a {
     background-size: cover;
 }
 
+.project-5 {
+    background-image: url("../assets/connect-four-pygame.png");
+    background-size: cover;
+}
+
 footer {
     height: 20vh;
     display: flex;
